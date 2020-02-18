@@ -13,6 +13,7 @@ LSTM使用的是keras所提供的LSTM，而資料前處理則是使用基本的p
 2.  搭建LSTM layer，(40行~55行)，每層LSTM配合dropout = 0.2，來避免過擬和(overfitting)，最後使用兩層不同數目的全連接層來得到預測股價
 3.  最後透過測試資料集來比對最後數據是否能預測正確(57行~79行)，並透過視覺化套件來判斷
 
-程式成果: ![predict result](./Predict_Result.png)  
+程式成果:  
+![predict result](./Predict_Result.png)  
 
 `(詳細作法程式中都有註解，)`
