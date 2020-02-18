@@ -1,10 +1,3 @@
-# Website Crawler
-
-程式主要為透過selenium和bs4這兩個套件來進行股票網站<span>https://www.investing.com/commodities/brent-oil-historical-data<span>的爬蟲，
-並且建立成csv檔，供後續LSTM模型做預測。  
-
-`(由於股票網站會時常更新，因此程式這邊使用的是當時網站的狀況，後續如果股票網站有更新的話就再更新了)`
-
 # LSTM_Predict
 
 LSTM使用的是keras所提供的LSTM，而資料前處理則是使用基本的pandas和numpy，同時使用了sklearn的正規化前處理，最後透過matplotlib來視覺化。  
