@@ -22,4 +22,7 @@ LSTM使用的是keras所提供的LSTM，而資料前處理則是使用基本的p
 * batch_size 的調整、epochs 的調整
 ![predict result](./Predict_Result.png)  
 
-`(詳細作法程式中都有註解，)`
+## 參考資料  
+`(詳細作法程式跟網站中都有註解)`  
+1. <span>https://ithelp.ithome.com.tw/articles/10206312<span>
+2. <span>https://www.finlab.tw/%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E5%B9%AB%E4%BD%A0%E8%A7%A3%E6%9E%90K%E7%B7%9A%E5%9C%96%EF%BC%81/<span>
